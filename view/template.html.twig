@@ -14,53 +14,54 @@
 {% endblock %} {# end head #}
 {% block bodyClass %}"bg-gray-300"{% endblock %} {# ajoute temporaire car c'est plus confortable pour les yeux #}
 {% block header %}
-<nav>
-    <ul class="flex justify-evenly mx-auto w-[75%] mt-12">
+<nav class="flex mx-[25%] mt-12 py-1 leading-loose w-auto border-2 border-cyan-600 rounded-full">
+    <div>ImgL</div>
+    <ul class="flex justify-evenly mx-auto w-[75%]">
             <li>
-        <a href="">
-                Accueil
+        <a href="" class="uppercase">
+                accueil
         </a>
             </li>
             <li>
-        <a href="">
+        <a href="" class="uppercase">
                 Notre Centre
         </a>
             </li>
             <li>
-        <a href="">
+        <a href="" class="uppercase">
                 Formations
         </a>
             </li>
             <li>
-        <a href="">
+        <a href="" class="uppercase">
                 Travaux
         </a>
             </li>
             <li>
-        <a href="">
+        <a href="" class="uppercase">
                 Nos Resaux
+        </a>
             </li>
-
     </ul>
+    <div>ImgR</div>
 </nav>
 {% endblock %}
 {% block mainClass %} "flex flex-col text-center mx-auto w-fit" {% endblock %}
 
 {% block footer %}
     <div class="flex flex-row w-[25%] mx-auto justify-center absolute bottom-48 left-0 right-0">
-
 &copy; <a href="https://leerlandais.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="px-4 text-blue-700">
-                        Leerlandais
-               </a>
-               <a href="https://2023.webdev-cf2m.be/Guillaume/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="pr-4 text-blue-700">
-                        BaiGui
-               </a>
+          target="_blank"
+          rel="noopener noreferrer"
+          class="pr-2 pl-2 text-blue-700">
+            Leerlandais
+        </a>
+        <a href="https://2023.webdev-cf2m.be/Guillaume/"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="pr-3 text-blue-700">
+            BaiGui
+        </a>
         {{ 'now' | date('Y') }}
     </div>
 {% endblock %}
