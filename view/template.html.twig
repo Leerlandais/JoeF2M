@@ -1,0 +1,66 @@
+{% extends 'base.html.twig' %}
+{% block head %}
+    {{ parent() }}
+<meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+{% block stylesheets %}
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+{% endblock %} {# end stylesheets #}
+{% endblock %} {# end head #}
+{% block bodyClass %}"bg-gray-300"{% endblock %} {# ajoute temporaire car c'est plus confortable pour les yeux #}
+{% block header %}
+<nav>
+    <ul class="flex justify-evenly mx-auto w-[75%] mt-12">
+            <li>
+        <a href="">
+                Accueil
+        </a>
+            </li>
+            <li>
+        <a href="">
+                Notre Centre
+        </a>
+            </li>
+            <li>
+        <a href="">
+                Formations
+        </a>
+            </li>
+            <li>
+        <a href="">
+                Travaux
+        </a>
+            </li>
+            <li>
+        <a href="">
+                Nos Resaux
+            </li>
+
+    </ul>
+</nav>
+{% endblock %}
+{% block mainClass %} "flex flex-col text-center mx-auto w-fit" {% endblock %}
+
+{% block footer %}
+    <div class="flex flex-row w-[25%] mx-auto justify-center absolute bottom-48 left-0 right-0">
+
+&copy; <a href="https://leerlandais.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="px-4 text-blue-700">
+                        Leerlandais
+               </a>
+               <a href="https://2023.webdev-cf2m.be/Guillaume/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="pr-4 text-blue-700">
+                        BaiGui
+               </a>
+        {{ 'now' | date('Y') }}
+    </div>
+{% endblock %}
