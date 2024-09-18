@@ -7,6 +7,6 @@ switch ($route) {
         break;
 
     default:
-        echo $twig->render('publicView/public.404.html.twig');
+        echo $twig->render('404.html.twig');
         break;
 }
