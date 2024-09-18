@@ -2,13 +2,13 @@
 
 session_start();
 
-if (isset($_SESSION["activity"]) && time() - $_SESSION["activity"] > 1800) { 
-    session_unset(); 
+if (isset($_SESSION["activity"]) && time() - $_SESSION["activity"] > 1800) {
+    session_unset();
     session_destroy();
     header("location: ./");
     exit();
 }
-$_SESSION["activity"] = time(); 
+$_SESSION["activity"] = time();
 
 use Twig\Loader\FilesystemLoader;
 use Twig\Environment;
