@@ -1,14 +1,49 @@
 {% extends 'template.html.twig' %}
 {% block title %} Home | CF2M {% endblock %}
 
-
 {% block content %}
-        <div class="d-flex flex-column w-100 align-items-center rounded-3 py-4 mt-4 bg-warning">
-                <h2>Bienvenue</h2>
-                <h3>'Landing Page' pour CF2M</h3>
-                <h4>&lpar;Ce site était crée par BaiGui et Leerlandais&rpar;</h4>
-        </div>
-{% endblock %}
+        {% block hero %}
+                <div class="d-flex flex-column w-100 align-items-center rounded-3 py-4 mt-4 bg-warning">
+                        <h2>Bienvenue</h2>
+                        <h3>'Landing Page' pour CF2M</h3>
+                        <h4>&lpar;Ce site était crée par BaiGui et Leerlandais&rpar;</h4>
+                </div>
+        {% endblock %} {# end hero #}
 
+        {% block presentation %}
+                {% include "/publicView/inc/presentation.section.html.twig" %}
+        {% endblock %}
+
+        {% block formations %}
+                {% include "/publicView/inc/formations.section.html.twig" %}
+        {% endblock %}
+
+        {% block projects %}
+                {% include "/publicView/inc/projects.section.html.twig" %}
+        {% endblock %}
+
+        {% block contactForm %}
+                {% include "/publicView/inc/contact.section.html.twig" %}
+        {% endblock %}
+
+        {% block partners %}
+                {% include "/publicView/inc/partner.section.html.twig" %}
+        {% endblock %}
+
+        {% block avis %}
+                {% include "/publicView/inc/avis.section.html.twig" %}
+        {% endblock %}
+
+        {% block autreOne %}  {# Ceci sont des Placeholder - Changer le nom du block ici et dans base.html.twig si on les utilise #}
+
+        {% endblock %}
+
+        {% block autreTwo %}  {# Ceci sont des Placeholder - Changer le nom du block ici et dans base.html.twig si on les utilise #}
+
+        {% endblock %}
+
+
+
+{% endblock %} {# end content #}
 
 
