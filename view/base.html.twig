@@ -13,8 +13,9 @@
     {% block header %}{% endblock %}
 
         <main class={% block mainClass %}{% endblock %}> {# Cela peut être utilisé pour définir le style du <main> à l'interieur du <body> - Ce bloc est destiné à la classe (c'est-à-dire au style) du <main> Ne pas mettre de contenu ici!  #}
-            {% block content %}{% endblock %} {# Ce bloc est destiné au contenu principal de la page (header et footer de page sont séparés) #}
+            {% block content %}  {# Ce bloc est destiné au contenu principal de la page (header et footer de page sont séparés) #}
             {% block contentUpper %}{% endblock %}
+            {% endblock %}
         </main>
 
     {% block footer %}{% endblock %}
