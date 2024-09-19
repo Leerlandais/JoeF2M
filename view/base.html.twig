@@ -7,32 +7,35 @@
         {% block stylesheet %}{% endblock %}
     {% endblock %}
 </head>
-<body>{% block body %}
+<body class={% block bodyClass %}{% endblock %}>{% block body %}
+
     {% block navBar %}
         {% block connectBtn %} {% endblock %}
     {% endblock %}
 
-    {% block hero %}
-        {% block heroText %}{% endblock %}
-        {% heroImg  %}{% endblock  %}
-    {% endblock %}
+    {% block content %}
+        {% block hero %}
+            {% block heroText %}{% endblock %}
+            {% block heroImg  %}{% endblock %}
+        {% endblock %}
 
-    {% block presentation %}
-        {% block presText %}{% endblock %}
-        {% block presImg %}{% endblock %}
-    {% endblock %}
+        {% block presentation %}
+            {% block presText %}{% endblock %}
+            {% block presImg %}{% endblock %}
+        {% endblock %}
 
-    {% block formations %}{% endblock %}
-    {% block projects %}{% endblock %}
-    {% block contactForm %}{% endblock %}
-    {% block partners %}{% endblock %}
-    {% block avis %}{% endblock %}
-    {% block autreOne %}{% endblock %}
-    {% block autreTwo %}{% endblock %}
+        {% block formations %}{% endblock %}
+        {% block projects %}{% endblock %}
+        {% block contactForm %}{% endblock %}
+        {% block partners %}{% endblock %}
+        {% block avis %}{% endblock %}
+        {% block autreOne %}{% endblock %}
+        {% block autreTwo %}{% endblock %}
+    {% endblock %}
 
     {% block footer %}{% endblock %}
 
-    {% block javascript %}{% endblock %}
+{% block javascript %}{% endblock %}
 
 </body> {% endblock %}
 </html>

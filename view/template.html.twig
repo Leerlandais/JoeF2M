@@ -1,41 +1,43 @@
 {% extends 'base.html.twig' %}
 {% block head %}
-    {{ parent() }}
-<meta charset="UTF-8">
-<meta name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
+        {{ parent() }}
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-{% block stylesheets %}
-    <link
-            href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-            rel="stylesheet"
-    />
+    {% block stylesheets %}
+        <link
+                href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+                rel="stylesheet"
+        />
+        <!-- Vendor CSS Files -->
+        <link href="../assets/vendor/aos/aos.css" rel="stylesheet" />
+        <link
+                href="../assets/vendor/bootstrap/css/bootstrap.min.css"
+                rel="stylesheet"
+        />
+        <link
+                href="../assets/vendor/bootstrap-icons/bootstrap-icons.css"
+                rel="stylesheet"
+        />
+        <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+        <link
+                href="../assets/vendor/glightbox/css/glightbox.min.css"
+                rel="stylesheet"
+        />
+        <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-    <!-- Vendor CSS Files -->
-    <link href="../assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link
-            href="../assets/vendor/bootstrap/css/bootstrap.min.css"
-            rel="stylesheet"
-    />
-    <link
-            href="../assets/vendor/bootstrap-icons/bootstrap-icons.css"
-            rel="stylesheet"
-    />
-    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-    <link
-            href="../assets/vendor/glightbox/css/glightbox.min.css"
-            rel="stylesheet"
-    />
-    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-
-    <!-- Template Main CSS File -->
-    <link href="../assets/css/style.css" rel="stylesheet" />
-{% endblock %} {# end stylesheets #}
+        <!-- Template Main CSS File -->
+        <link href="../assets/css/style.css" rel="stylesheet" />
+    {% endblock %} {# end stylesheets #}
 {% endblock %} {# end head #}
-{% block bodyClass %}"bg-gray-300"{% endblock %} {# ajoute temporaire car c'est plus confortable pour les yeux #}
-{% block header %}
-    <nav class="d-flex mx-5 mt-4 w-auto border border-info rounded-pill">
+
+
+{% block bodyClass %} "d-flex flex-column justify-content-center container-fluid align-items-center px-5 bg-secondary-subtle" {% endblock %}
+
+{% block navBar %}
+    <nav class="d-flex mx-5 mt-4 w-100 border border-info rounded-pill">
         <a href="?route=home">
             <img src="images/cf2m-logo-good.png" alt="Logo CF2M" class="mx-2" style="width: 36px; height: 36px;">
         </a>
@@ -61,12 +63,12 @@
         </a>
     </nav>
 
-{% endblock %}
+{% endblock %} {# end navBar #}
 
 
 {% block footer %}
-    <div class="flex flex-row w-[25%] mx-auto justify-center absolute bottom-48 left-0 right-0">
-        &copy;
+    <div class="d-flex justify-content-center position-absolute" style="width: 25%; bottom: 12rem; left: 0; right: 0; margin: 0 auto;">
+    &copy;
         <a href="https://2023.webdev-cf2m.be/Guillaume/"
            target="_blank"
            rel="noopener noreferrer"
