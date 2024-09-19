@@ -1,4 +1,22 @@
 {# Pour contenir le formulaire de contact #}
 
 
-<p>TEST - CONTACT PAGE</p>
+<form class="d-flex flex-column gap-3 w-75">
+    <div class="form-group">
+        <label for="contactFormUser">Nom</label>
+        <input type="text" class="form-control" id="contactFormUser" name="contactFormUser" placeholder="exemple: NOM &amp; prenom">
+    </div>
+    <div class="form-group">
+        <label for="contactFormMail">Email</label>
+        <input type="email" class="form-control" id="contactFormMail" name="contactFormMail" placeholder="exemple: pat@ezoignons.com ">
+    </div>
+    <div class="form-group">
+        <label for="contactFormTele">Téléphone</label>
+        <input type="text" class="form-control" id="contactFormTele" name="contactFormTele" placeholder="exemple: 02 539 03 60">
+    </div>
+    <div class="form-group">
+        <label for="contactFormText">Message</label>
+        <textarea class="form-control" id="contactFormText" name="contactFormText" rows="3" placeholder="exemple: blah blah blah"></textarea>
+    </div>
+    <input class="btn btn-warning w-25 align-self-center" type="submit" value="Envoyez">
+</form>
