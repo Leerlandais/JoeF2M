@@ -7,20 +7,32 @@
         {% block stylesheet %}{% endblock %}
     {% endblock %}
 </head>
-{% block body %}
-    <body class={% block bodyClass %}{% endblock %}> {# Cela peut être utilisé pour définir le style du <body> - Ce bloc contient tous les autres (header, main, content and footer#}
+<body>{% block body %}
+    {% block navBar %}
+        {% block connectBtn %} {% endblock %}
+    {% endblock %}
 
-    {% block header %}{% endblock %}
+    {% block hero %}
+        {% block heroText %}{% endblock %}
+        {% heroImg  %}{% endblock  %}
+    {% endblock %}
 
-        <main class={% block mainClass %}{% endblock %}> {# Cela peut être utilisé pour définir le style du <main> à l'interieur du <body> - Ce bloc est destiné à la classe (c'est-à-dire au style) du <main> Ne pas mettre de contenu ici!  #}
-            {% block content %}  {# Ce bloc est destiné au contenu principal de la page (header et footer de page sont séparés) #}
-            {% block contentUpper %}{% endblock %}
-            {% endblock %}
-        </main>
+    {% block presentation %}
+        {% block presText %}{% endblock %}
+        {% block presImg %}{% endblock %}
+    {% endblock %}
+
+    {% block formations %}{% endblock %}
+    {% block projects %}{% endblock %}
+    {% block contactForm %}{% endblock %}
+    {% block partners %}{% endblock %}
+    {% block avis %}{% endblock %}
+    {% block autreOne %}{% endblock %}
+    {% block autreTwo %}{% endblock %}
 
     {% block footer %}{% endblock %}
 
     {% block javascript %}{% endblock %}
 
-    </body> {% endblock %}
+</body> {% endblock %}
 </html>
