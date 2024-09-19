@@ -2,7 +2,9 @@
 {% block title %} Home | CF2M {% endblock %}
 
 {% block header %}
-        <div class="flex flex-col w-[50%] mx-auto items-center rounded-3xl py-8 mt-4 bg-amber-600">
+
+        {{ parent() }}
+        <div class="flex flex-col w-[90%] mx-auto items-center rounded-3xl py-8 mt-4 bg-amber-600">
                 <h2 class="text-5xl">Bienvenue</h2>
                 <h3 class="text-4xl">'Landing Page' pour CF2M</h3>
                 <h4 class="text-2xl">&lpar;Ce site était crée par BaiGui et Leerlandais&rpar;</h4>
