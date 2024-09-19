@@ -1,6 +1,8 @@
 # Objectif du projet :
 ## Créez une version adaptable et évolutive du site CF2M repensée par BaiGui
 
+---
+
 ## Logiciels et Langages utilisés :
 - Figma : Pour la création de maquette
 - Twig : Pour gérer le modèle du site
@@ -9,3 +11,6 @@
 
 ### Date de Début : 18/09/2024
 
+---
+
+**N'oublie pas de crée un config.php et faire un 'composer install' après le clonage**
