@@ -73,6 +73,6 @@ class CommentMapping extends AbstractMapping
         $this->joe_comm_vis = $joe_comm_vis;
     }
 
-    
+
 
 } // end class
