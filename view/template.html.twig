@@ -7,44 +7,60 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 {% block stylesheets %}
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+            rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+            href="../assets/vendor/bootstrap/css/bootstrap.min.css"
+            rel="stylesheet"
+    />
+    <link
+            href="../assets/vendor/bootstrap-icons/bootstrap-icons.css"
+            rel="stylesheet"
+    />
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+            href="../assets/vendor/glightbox/css/glightbox.min.css"
+            rel="stylesheet"
+    />
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/style.css" rel="stylesheet" />
 {% endblock %} {# end stylesheets #}
 {% endblock %} {# end head #}
 {% block bodyClass %}"bg-gray-300"{% endblock %} {# ajoute temporaire car c'est plus confortable pour les yeux #}
 {% block header %}
-<nav class="flex mx-[5%] mt-12 py-1 leading-loose w-auto border-2 border-cyan-600 rounded-full">
-    <a href="?route=home"><img src="images/cf2m-logo-good.png" alt="Logo CF2M" class="mx-2 size-9"></a>
-    <ul class="flex justify-evenly mx-auto w-[75%]">
-            <li>
-        <a href="?route=home" class="uppercase">
-                accueil
+    <nav class="d-flex mx-5 mt-4 w-auto border border-info rounded-pill">
+        <a href="?route=home">
+            <img src="images/cf2m-logo-good.png" alt="Logo CF2M" class="mx-2" style="width: 36px; height: 36px;">
         </a>
+        <ul class="d-flex justify-content-evenly mx-auto" style="width: 75%;">
+            <li>
+                <a href="?route=home" class="text-uppercase">accueil</a>
             </li>
             <li>
-        <a href="?route=cent" class="uppercase">
-                Notre Centre
-        </a>
+                <a href="?route=cent" class="text-uppercase">Notre Centre</a>
             </li>
             <li>
-        <a href="?route=form" class="uppercase">
-                Formations
-        </a>
+                <a href="?route=form" class="text-uppercase">Formations</a>
             </li>
             <li>
-        <a href="?route=work" class="uppercase">
-                Travaux
-        </a>
+                <a href="?route=work" class="text-uppercase">Travaux</a>
             </li>
             <li>
-        <a href="?route=resx" class="uppercase">
-                Nos Resaux
-        </a>
+                <a href="?route=resx" class="text-uppercase">Nos Resaux</a>
             </li>
-    </ul>
-    <a href="https://cf2m.be"><img src="images/cf2m-logo-good.png" alt="Logo CF2M" class="mx-2 size-9"></a>
-</nav>
+        </ul>
+        <a href="https://cf2m.be">
+            <img src="images/cf2m-logo-good.png" alt="Logo CF2M" class="mx-2" style="width: 36px; height: 36px;">
+        </a>
+    </nav>
+
 {% endblock %}
 
 
