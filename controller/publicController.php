@@ -1,7 +1,11 @@
 <?php
 
 use model\Manager\ProjectManager;
+use model\Manager\CommentManager;
 $projectManager = new ProjectManager($db);
+$commentManager = new CommentManager($db);
+
+
 
 $route = $_GET['route'] ?? 'home';
 switch ($route) {
