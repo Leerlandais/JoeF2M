@@ -1,5 +1,5 @@
 # Objectif du projet :
-## Créez une version adaptable et évolutive du site CF2M repensée par BaiGui
+## Créez une version adaptable et évolutive du site CF2M repensée par BailGui
 
 ---
 
