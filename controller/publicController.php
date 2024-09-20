@@ -15,6 +15,7 @@ if (isset(
     $_POST["contactFormText"]
 )) {
 
+
     $commMapData = [
         'joe_comm_nom' => $_POST["contactFormUser"],
         'joe_comm_mail' => $_POST["contactFormMail"],

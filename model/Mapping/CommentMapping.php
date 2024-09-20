@@ -3,7 +3,8 @@
 namespace model\Mapping;
 
 use model\Abstract\AbstractMapping;
-use model\Trait\TraitLaundryRoom
+use model\Trait\TraitLaundryRoom;
+use Exception;
 
 class CommentMapping extends AbstractMapping
 {
@@ -32,7 +33,8 @@ class CommentMapping extends AbstractMapping
 
     public function setJoeCommNom(?string $joe_comm_nom): void
     {
-        $this->joe_comm_nom = $joe_comm_nom;
+
+        $this->joe_comm_nom = $this->standardClean($joe_comm_nom);
     }
 
     public function getJoeCommMail(): ?string
@@ -42,7 +44,7 @@ class CommentMapping extends AbstractMapping
 
     public function setJoeCommMail(?string $joe_comm_mail): void
     {
-        $this->joe_comm_mail = $joe_comm_mail;
+        $this->joe_comm_mail = $this->emailClean($joe_comm_mail);
     }
 
     public function getJoeCommTele(): ?string
@@ -52,7 +54,7 @@ class CommentMapping extends AbstractMapping
 
     public function setJoeCommTele(?string $joe_comm_tele): void
     {
-        $this->joe_comm_tele = $joe_comm_tele;
+        $this->joe_comm_tele = $this->standardClean($joe_comm_tele);
     }
 
     public function getJoeCommMess(): ?string
@@ -62,7 +64,8 @@ class CommentMapping extends AbstractMapping
 
     public function setJoeCommMess(?string $joe_comm_mess): void
     {
-        $this->joe_comm_mess = $joe_comm_mess;
+        if($this->findTheNeedles($joe_comm_mess)) throw new Exception("Menace d'Injection détectée");
+        $this->joe_comm_mess = $this->standardClean($joe_comm_mess);
     }
 
     public function getJoeCommVis(): ?bool
