@@ -10,7 +10,7 @@ class CommentMapping extends AbstractMapping
     protected ?string $joe_comm_nom = null;
     protected ?string $joe_comm_mail = null;
     protected ?string $joe_comm_tele = null;
-    protected ?string $joe_comm_text = null;
+    protected ?string $joe_comm_mess = null;
     protected ?bool $joe_comm_vis = null;
 
     public function getJoeCommId(): ?int
@@ -53,14 +53,14 @@ class CommentMapping extends AbstractMapping
         $this->joe_comm_tele = $joe_comm_tele;
     }
 
-    public function getJoeCommText(): ?string
+    public function getJoeCommMess(): ?string
     {
-        return $this->joe_comm_text;
+        return $this->joe_comm_mess;
     }
 
-    public function setJoeCommText(?string $joe_comm_text): void
+    public function setJoeCommMess(?string $joe_comm_mess): void
     {
-        $this->joe_comm_text = $joe_comm_text;
+        $this->joe_comm_mess = $joe_comm_mess;
     }
 
     public function getJoeCommVis(): ?bool
