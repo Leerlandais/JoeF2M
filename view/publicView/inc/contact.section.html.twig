@@ -1,4 +1,29 @@
 {# Pour contenir le formulaire de contact #}
+<h2 class="text-dark">CONTACTEZ NOUS VIA LE FORMULAIRE</h2>
+<div class="d-flex w-75 justify-content-center bg-secondary-subtle border border-2 border-dark rounded-5 py-5 position-relative">
+    <img src="images/cf2m-logo-good.png" alt="Logo CF2M" class="position-absolute" style="top: 10px; left: 10px; width: 48px; height: 48px;">
+    <form class="d-flex flex-column gap-3 w-75" method="POST" action="" id="contactForm">
+        <div class="form-group">
+            <label for="contactFormUser">Nom</label>
+            <input type="text" class="form-control rounded-3 border-dark" id="contactFormUser" name="contactFormUser" placeholder="exemple: NOM &amp; prenom" required>
+        </div>
+        <div class="form-group">
+            <label for="contactFormMail">Email</label>
+            <input type="email" class="form-control rounded-3 border-dark" id="contactFormMail" name="contactFormMail" placeholder="exemple: pat@ezoignons.com" required>
+        </div>
+        <div class="form-group">
+            <label for="contactFormTele">Téléphone</label>
+            <input type="text" class="form-control rounded-3 border-dark" id="contactFormTele" name="contactFormTele" placeholder="exemple: 02 539 03 60" required>
+        </div>
+        <div class="form-group">
+            <label for="contactFormText">Message</label>
+            <textarea class="form-control rounded-3 border-dark" id="contactFormText" name="contactFormText" rows="3" placeholder="exemple: blah blah blah" required></textarea>
+        </div>
+        <input class="btn btn-warning w-25 align-self-center" type="submit" value="Envoyez">
+    </form>
+</div>
 
 
-<p>TEST - CONTACT PAGE</p>
+{% block javascript %}
+<script src="/public/scripts/contact-form.js"></script>
+{% endblock %}

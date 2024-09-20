@@ -67,20 +67,21 @@
 
 
 {% block footer %}
-    <div class="d-flex justify-content-center position-absolute" style="width: 25%; bottom: 12rem; left: 0; right: 0; margin: 0 auto;">
+    <div class="d-flex w-100 justify-content-center position-absolute bottom-0 pb-4" style="width: 25%; bottom: 12rem; left: 0; right: 0; margin: 0 auto;">
     &copy;
         <a href="https://2023.webdev-cf2m.be/Guillaume/"
            target="_blank"
            rel="noopener noreferrer"
            class="pr-2 pl-2 text-blue-700">
-            BailGui.
+            BailGui
+           et
         </a>
         <a href="https://leerlandais.com"
            target="_blank"
            rel="noopener noreferrer"
-           class="pr-3 text-blue-700">
+           class="px-1 text-blue-700">
             Leerlandais
         </a>
-        {{ 'now' | date('Y') }}
+        <span class="text-dark">{{ 'now' | date('Y') }}</span>
     </div>
 {% endblock %}
