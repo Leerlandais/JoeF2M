@@ -3,6 +3,7 @@
 namespace model\Mapping;
 
 use model\Abstract\AbstractMapping;
+use model\Trait\TraitLaundryRoom
 
 class CommentMapping extends AbstractMapping
 {
@@ -13,6 +14,7 @@ class CommentMapping extends AbstractMapping
     protected ?string $joe_comm_mess = null;
     protected ?bool $joe_comm_vis = null;
 
+    use TraitLaundryRoom;
     public function getJoeCommId(): ?int
     {
         return $this->joe_comm_id;

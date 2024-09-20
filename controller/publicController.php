@@ -14,7 +14,7 @@ if (isset(
     $_POST["contactFormTele"],
     $_POST["contactFormText"]
 )) {
-    die(var_dump($_POST));
+
     $commMapData = [
         'joe_comm_nom' => $_POST["contactFormUser"],
         'joe_comm_mail' => $_POST["contactFormMail"],
@@ -22,9 +22,8 @@ if (isset(
         'joe_comm_mess' => $_POST["contactFormText"]
     ];
     // sanitisation of code is handled during the Mapping by the Setters
-    $codeMapping = new CommentMapping($commMapData);
-    die(var_dump($commMapData));
-    $addCode = $commentManager->addComment($codeMapping);
+    $commMapping = new CommentMapping($commMapData);
+    $addCode = $commentManager->addComment($commMapping);
 }
 
 
