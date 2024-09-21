@@ -1,8 +1,8 @@
 
 @font-face {
   font-family: 'jetBrains';
-  src: url('fonts/JetBrainsMono-VariableFont_wght.ttf') format('ttf'),
-       url('fonts/JetBrainsMono-VariableFont_wght.ttf') format('ttf')
+  src: url('/public/fonts/JetBrainsMono-VariableFont_wght.ttf') format('ttf'),
+       url('/public/fonts/JetBrainsMono-VariableFont_wght.ttf') format('ttf')
 }
 
 /**
