@@ -1,8 +1,8 @@
 
 @font-face {
   font-family: 'jetBrains';
-  src: url('../../public/fonts/static/JetBrainsMono-Regular.ttf') format('ttf'),
-       url('../../public/fonts/static/JetBrainsMono-Regular.ttf') format('ttf')
+  src: url('../public/fonts/JetBrainsMono-VariableFont_wght.ttf') format('ttf'),
+       url('./public/fonts/JetBrainsMono-VariableFont_wght.ttf') format('ttf')
 }
 
 /**
@@ -18,12 +18,19 @@
 --------------------------------------------------------------*/
 body {
   font-family: "jetBrains";
-  color: white;
+  color: black;
+  background-color: #f2f6fa;
 }
 
 a {
   color: #00A89F;
   text-decoration: none;
+}
+
+p{ 
+  font-family: 'jetBrains';
+  color: black;
+  font-size: 16px;
 }
 
 a:hover {
@@ -368,23 +375,25 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+  width: auto;
+  border-radius: 2rem;
+  border: black solid 2px;
   padding: 0 0 0 0;
-  background: #00A89F;
-  background: linear-gradient(180deg,#1f2549 0%, #115363 35%,#115363 100%);
+  background: #F29100;
+  background: linear-gradient(180deg,#F29100 0%, #F29100 35%,#f291007e 100%);
 }
 
 #hero h1 {
   margin: 0 0 15px 0;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 56px;
-  color: #d2e0ed;
+  color: black;
   font-family: "jetBrains";
 }
 
 #hero h2 {
-  color: #fff;
+  color: black;
   margin-bottom: 30px;
   font-size: 22px;
 }
@@ -396,7 +405,7 @@ h6 {
   border: 2px solid black;
   transition: all ease-in-out 0.3s;
   display: inline-block;
-  background: #7e2835;
+ 
 }
 
 #hero .btn-get-started:hover {
@@ -445,13 +454,9 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
-  padding: 60px 0;
-  overflow: hidden;
-}
 
 .section-bg {
-  background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);
+  background: #f2f6fa;
 }
 
 .section-title {
@@ -468,28 +473,6 @@ section {
   position: relative;
   font-family: "jetBrains";
   color: #213b52;
-}
-
-.section-title h2::before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 120px;
-  height: 1px;
-  background: #ddd;
-  bottom: 1px;
-  left: calc(50% - 60px);
-}
-
-.section-title h2::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 3px;
-  background: #7e2835;
-  bottom: 0;
-  left: calc(50% - 20px);
 }
 
 .section-title p {

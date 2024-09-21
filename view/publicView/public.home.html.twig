@@ -3,10 +3,33 @@
 
 {% block content %}
         {% block hero %}
-                <div class="d-flex flex-column w-100 align-items-center rounded-3 py-4 mt-4 bg-warning">
-                        <h2>Bienvenue</h2>
-                        <h3>'Landing Page' pour CF2M</h3>
-                        <h4>&lpar;Ce site était crée par BaiGui et Leerlandais&rpar;</h4>
+                <section id="hero" class="mb-5 mt-5">
+      <div class="container">
+        <div class="row d-flex align-items-center p-5">
+          <div
+            class="col-lg-5 py-5 py-lg-0 order-1 order-lg-1"
+            data-aos="fade-right"
+          >
+            <h1>
+              FORMATIONS <br /> PROFESSIONNELLES
+            </h1>
+            <h2>des métiers du numérique <br />
+                pour chercheurs et chercheuses d'emploi</h2>
+                </div>
+                <div
+            class="col-lg-2 py-5 py-lg-0 order-2 order-lg-1">
+            <a href="#" target="_blank" class="scrollto"><img src="../public/images/contact-button.png"></a>
+          </div>
+          <div
+            class="col-lg-5 order-1 order-lg-3 hero-img"
+            data-aos="fade-left"
+          >
+            <img src="../public/images/img-colleague.svg" class="img-fluid ms-5 ps-5" alt="Photo Accueil" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
                 </div>
         {% endblock %} {# end hero #}
 
