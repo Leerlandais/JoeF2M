@@ -34,12 +34,14 @@
 {% endblock %} {# end head #}
 
 
-{% block bodyClass %} "d-flex flex-column justify-content-center container-fluid align-items-center px-5 bg-secondary-subtle" {% endblock %}
+{% block bodyClass %} "d-flex flex-column justify-content-center container-fluid align-items-center px-5" {% endblock %}
 
 {% block navBar %}
-    <nav class="d-flex mx-5 mt-4 w-100 border border-info rounded-pill">
+<div class="container sticky-top">
+    <div class="row content">
+        <nav id="navbar" class=" col-md-12 space-between navbar border border-info rounded-pill mt-3 mb-3" data-aos="fade-down">
         <a href="?route=home">
-            <img src="images/cf2m-logo-good.png" alt="Logo CF2M" class="mx-2" style="width: 36px; height: 36px;">
+            <img src="images/cf2m-logo-good.png" alt="Logo CF2M" class="m-2 " style="width: 36px; height: 36px;">
         </a>
         <ul class="d-flex justify-content-evenly mx-auto" style="width: 75%;">
             <li>
@@ -62,7 +64,8 @@
             <img src="images/cf2m-logo-good.png" alt="Logo CF2M" class="mx-2" style="width: 36px; height: 36px;">
         </a>
     </nav>
-
+    </div>
+</div>
 {% endblock %} {# end navBar #}
 
 
