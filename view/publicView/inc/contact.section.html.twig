@@ -1,7 +1,10 @@
 {# Pour contenir le formulaire de contact #}
 <h2 class="text-dark">CONTACTEZ NOUS VIA LE FORMULAIRE</h2>
 <div class="d-flex w-75 justify-content-center bg-secondary-subtle border border-2 border-dark rounded-5 py-5 position-relative">
-    <img src="images/cf2m-logo-good.png" alt="Logo CF2M" class="position-absolute" style="top: 10px; left: 10px; width: 48px; height: 48px;">
+    <img src="{{ PROJECT_DIRECTORY }}/public/images/cf2m-logo-good.png"
+         alt="Logo CF2M"
+         class="position-absolute"
+         style="top: 10px; left: 10px; width: 48px; height: 48px;">
     <form class="d-flex flex-column gap-3 w-75" method="POST" action="" id="contactForm">
         <div class="form-group">
             <label for="contactFormUser">Nom</label>
