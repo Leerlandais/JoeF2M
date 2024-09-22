@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Sep 22, 2024 at 02:00 PM
+-- Generation Time: Sep 22, 2024 at 02:33 PM
 -- Server version: 8.2.0
 -- PHP Version: 8.2.13
 
@@ -34,7 +34,13 @@ INSERT INTO `joe_projects` (`joe_proj_id`, `joe_proj_alt`, `joe_proj_class`, `jo
 (6, 'Erhan Erdas', 'webDev', '/public/images/projects/prefo_EE.png', 'https://2023.webdev-cf2m.be/Erhan/PrefoSiteWeb/', 1),
 (7, 'Anthony Arnone', 'aniDig', '/public/images/projects/prefo_AA.png', 'https://2023.webdev-cf2m.be/Anthony/Siteprefo/', 1),
 (8, 'Julien Wisniewski', 'webDes', '/public/images/projects/prefo_JW.png', 'https://2023.webdev-cf2m.be/Julian/prefowebsite/', 1),
-(9, 'Kevin Vanwassenhove', 'webDes', '/public/images/projects/prefo_KV.png', 'https://2023.webdev-cf2m.be/Kevin/prefowebsite/', 1);
+(9, 'Kevin Vanwassenhove', 'webDes', '/public/images/projects/prefo_KV.png', 'https://2023.webdev-cf2m.be/Kevin/prefowebsite/', 1),
+(10, 'Emrah Arpaci', 'webDes', '/public/images/projects/prefo_EA.png', 'https://2023.webdev-cf2m.be/Emrah/prefowebsite/', 1),
+(11, 'Gregory Lemonnier', 'webDes', '/public/images/projects/prefo_GL.png', 'https://2023.webdev-cf2m.be/Gregory/site_prefo/', 1),
+(12, 'Laura Tekfi', 'aniDig', '/public/images/projects/prefo_LT.png', 'https://2023.webdev-cf2m.be/Laura/prefo/', 1),
+(13, 'Sebastien Struys', 'webDev', '/public/images/projects/prefo_SS.png', 'https://2023.webdev-cf2m.be/Sebastien/projet%20prefo/', 1),
+(14, 'Simona Hoater', 'webDes', '/public/images/projects/prefo_SH.png', 'https://2023.webdev-cf2m.be/Simona/', 1),
+(15, 'Rami Ben Salem', 'webDes', '/public/images/projects/prefo_RB.png', 'https://2023.webdev-cf2m.be/Rami/BETAwebdev2023/', 1);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

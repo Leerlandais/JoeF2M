@@ -19,7 +19,8 @@
           </div>
 
           <div class="row DiapoCf2m-container" >
-              {% for project in projects %}
+
+              {% for project in projects | slice(0,9) %}
             <div class="col-lg-4 col-md-6 DiapoCf2m-item filter-{{ project.getJoeProjClass }}">
               <div class="DiapoCf2m-wrap">
                 <img

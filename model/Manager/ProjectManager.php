@@ -7,10 +7,10 @@ use model\Mapping\ProjectMapping;
 
 class ProjectManager extends AbstractManager
 {
-    public function getRandomProjects($limit = 9): array|bool
+    public function getRandomProjects(): array|bool
     {
         $query = $this->db->query(
-            "SELECT * FROM joe_projects WHERE joe_proj_vis = 1 ORDER BY RAND() LIMIT {$limit}"
+            "SELECT * FROM joe_projects WHERE joe_proj_vis = 1 ORDER BY RAND()"
         );
         $projects = $query->fetchAll();
         $query->closeCursor();
