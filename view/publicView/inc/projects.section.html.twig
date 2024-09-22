@@ -1,5 +1,9 @@
 {# Pour contenit les 9 projets des stagiares #}
-
+{# Step 1: Split projects by their class type and slice after filtering #}
+{% set webDevProjects = projects | filter(p => p.getJoeProjClass == 'webDev') %}
+{% set webDesProjects = projects | filter(p => p.getJoeProjClass == 'webDes') %}
+{% set aniDigProjects = projects | filter(p => p.getJoeProjClass == 'aniDig') %}
+{{ dump(aniDigProjects) }}
       <section id="diaporama" class="DiapoCf2m mt-5 mb-5 section-bg">
         <div class="container">
 
