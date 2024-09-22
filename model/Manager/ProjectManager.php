@@ -10,7 +10,9 @@ class ProjectManager extends AbstractManager
     public function getRandomProjects(): array|bool
     {
         $query = $this->db->query(
-            "SELECT * FROM joe_projects WHERE joe_proj_vis = 1 ORDER BY RAND()"
+            "SELECT * FROM joe_projects 
+                    WHERE joe_proj_vis = 1 
+                    ORDER BY RAND()"
         );
         $projects = $query->fetchAll();
         $query->closeCursor();
@@ -21,6 +23,21 @@ class ProjectManager extends AbstractManager
         return $projObject;
     }
 
+    public function getAllProjectsByClass($class) : array|bool
+    {
+        $query = $this->db->query(
+                "SELECT * FROM joe_projects
+                        WHERE joe_proj_class = ?
+                        ORDER BY RAND()"
+        );
+        $projects = $query->fetchAll();
+        $query->closeCursor();
+        $projObject = [];
+        foreach ($projects as $project) {
+            $projObject[] = new ProjectMapping($project);
+        }
+        return $projObject;
+    }
 
 
 } // end class
