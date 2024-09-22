@@ -1,4 +1,4 @@
-{# Pour contenit les 9 projets des stagiares #}
+{# Pour contenir les 9 projets des stagiares #}
 
       <section id="diaporama" class="DiapoCf2m mt-5 mb-5 section-bg">
         <div class="container">
@@ -7,7 +7,7 @@
             <h2 data-aos="fade-in">DECOUVREZ LES TRAVAUX DE NOS ANCIENS STAGIAIRES</h2>
           </div>
 
-          {# Step 1: Split projects by their class type #}
+          {# Split projects into classType #}
           {% set webDevProjects = projects | filter(p => p.getJoeProjClass == 'webDev')%}
           {% set webDesProjects = projects | filter(p => p.getJoeProjClass == 'webDes')%}
           {% set aniDigProjects = projects | filter(p => p.getJoeProjClass == 'aniDig')%}
@@ -22,6 +22,26 @@
               </ul>
             </div>
           </div>
+
+          <div class="row DiapoCf2m-container">
+            {# Display all projects #}
+            {% for project in projects | slice(0, 9) %}
+              <div class="col-lg-4 col-md-6 DiapoCf2m-item filter-{{ project.getJoeProjClass }}">
+                <div class="DiapoCf2m-wrap">
+                  <img src="{{ PROJECT_DIRECTORY }}{{ project.getJoeProjImgLoc }}" class="img-fluid" data-aos="zoom-in"
+                       data-aos-duration="2500" alt="{{ project.getJoeProjAlt }}" />
+                  <div class="DiapoCf2m-links">
+                    <a href="{{ PROJECT_DIRECTORY }}{{ project.getJoeProjImgLoc }}" data-gallery="DiapoCf2mGallery"
+                       class="DiapoCf2m-lightbox" data-aos="zoom-in" data-aos-duration="2500" title="">
+                      <i class="bi bi-plus"></i>
+                    </a>
+                    <a href="{{ project.getJoeProjUrl }}" target="_blank" title="{{ project.getJoeProjAlt }}">
+                      <i class="bi bi-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
 
 
 
