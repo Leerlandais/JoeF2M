@@ -1,11 +1,13 @@
 {# Pour contenit les 9 projets des stagiares #}
+
       <section id="diaporama" class="DiapoCf2m mt-5 mb-5 section-bg">
         <div class="container">
+
           <div class="section-title">
             <h2 data-aos="fade-in">DECOUVREZ LES TRAVAUX DE NOS ANCIENS STAGIAIRES</h2>
           </div>
 
-          <div clases="row">
+          <div class="row">
             <div class="col-lg-12">
               <ul id="DiapoCf2m-flters">
                 <li data-filter="*" class="filter-active">TOUS</li>
@@ -17,27 +19,31 @@
           </div>
 
           <div class="row DiapoCf2m-container" >
+              {% for project in projects %}
             <div class="col-lg-4 col-md-6 DiapoCf2m-item filter-web">
               <div class="DiapoCf2m-wrap">
                 <img
-                  src="{{ PROJECT_DIRECTORY }}/public/images/projects/prefo_GB.svg"
+                  src="{{ PROJECT_DIRECTORY }}{{ project.getJoeProjImgLoc }}"
                   class="img-fluid"
-                  alt="BailGui"
+                  alt="{{ project.getJoeProjAlt }}"
                 />
                 <div class="DiapoCf2m-links">
                   <a
-                    href="{{ PROJECT_DIRECTORY }}/public/images/projects/prefo_GB.svg"
+                    href="{{ PROJECT_DIRECTORY }}{{ project.getJoeProjImgLoc }}"
                     data-gallery="DiapoCf2mGallery"
                     class="DiapoCf2m-lightbox"
                     title=""
                     ><i class="bi bi-plus"></i
                   ></a>
-                  <a href="https://2023.webdev-cf2m.be/Guillaume/Siteprefo/" target="_blank" title="Discover"
+                  <a href="{{ project.getJoeProjUrl }}" target="_blank" title="{{ project.getJoeProjAlt }}"
                     ><i class="bi bi-link"></i
                   ></a>
                 </div>
               </div>
             </div>
+              {% endfor %}
+
+
           </div>
         </div>
       </section>
