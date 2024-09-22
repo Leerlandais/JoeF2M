@@ -8,6 +8,7 @@
           </div>
 
 
+          {# Step 1: Split projects by their class type and slice after filtering #}
           {% set webDevProjects = projects | filter(p => p.getJoeProjClass == 'webDev') %}
           {% set webDesProjects = projects | filter(p => p.getJoeProjClass == 'webDes') %}
           {% set aniDigProjects = projects | filter(p => p.getJoeProjClass == 'aniDig') %}
@@ -24,7 +25,7 @@
           </div>
 
           <div class="row DiapoCf2m-container">
-
+            {# Step 2: Display all projects (for the "TOUS" filter) with the first 9 items #}
             {% for project in projects | slice(0, 9) %}
               <div class="col-lg-4 col-md-6 DiapoCf2m-item filter-{{ project.getJoeProjClass }}">
                 <div class="DiapoCf2m-wrap">
@@ -43,7 +44,7 @@
               </div>
             {% endfor %}
 
-
+            {# Step 3: Display only up to 9 filtered projects for each specific category #}
             {% for project in aniDigProjects | slice(0, 9) %}
               <div class="col-lg-4 col-md-6 DiapoCf2m-item filter-{{ project.getJoeProjClass }}">
                 <div class="DiapoCf2m-wrap">
@@ -98,6 +99,7 @@
               </div>
             {% endfor %}
           </div>
+
 
         </div>
       </section>
