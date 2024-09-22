@@ -7,8 +7,8 @@ use model\Abstract\AbstractMapping;
 class ProjectMapping extends AbstractMapping
 {
 protected ?int $joe_proj_id = null;
-protected ?string $joe_proj_title = null;
-protected ?string $joe_proj_desc = null;
+protected ?string $joe_proj_alt = null;
+protected ?string $joe_proj_class = null;
 protected ?string $joe_proj_img_loc = null;
 protected ?string $joe_proj_url = null;
 protected ?bool $joe_proj_vis = null;
@@ -23,24 +23,24 @@ protected ?bool $joe_proj_vis = null;
         $this->joe_proj_id = $joe_proj_id;
     }
 
-    public function getJoeProjTitle(): ?string
+    public function getJoeProjAlt(): ?string
     {
-        return $this->joe_proj_title;
+        return $this->joe_proj_alt;
     }
 
-    public function setJoeProjTitle(?string $joe_proj_title): void
+    public function setJoeProjAlt(?string $joe_proj_alt): void
     {
-        $this->joe_proj_title = $joe_proj_title;
+        $this->joe_proj_alt = $joe_proj_alt;
     }
 
-    public function getJoeProjDesc(): ?string
+    public function getJoeProjClass(): ?string
     {
-        return $this->joe_proj_desc;
+        return $this->joe_proj_class;
     }
 
-    public function setJoeProjDesc(?string $joe_proj_desc): void
+    public function setJoeProjClass(?string $joe_proj_class): void
     {
-        $this->joe_proj_desc = $joe_proj_desc;
+        $this->joe_proj_class = $joe_proj_class;
     }
 
     public function getJoeProjImgLoc(): ?string
