@@ -22,7 +22,7 @@ class ProjectManager extends AbstractManager
         }
         return $projObject;
     }
-    
+
 
     public function getAllProjectsByClass($class) : array|bool
     {
