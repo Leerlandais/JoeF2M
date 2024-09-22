@@ -1,6 +1,12 @@
 {# Pour contenir le formulaire de contact #}
-<h2 class="text-dark">CONTACTEZ NOUS VIA LE FORMULAIRE</h2>
-<div class="d-flex w-75 justify-content-center bg-secondary-subtle border border-2 border-dark rounded-5 py-5 position-relative">
+ <section id="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>CONTACTEZ NOUS VIA LE FORMULAIRE</h2>
+        </div>
+            <div class="row content">
+                <div class="col-md-12 justify-content-center" data-aos="fade-right">
+<div class="d-flex justify-content-center bg-secondary-subtle border border-2 border-dark rounded-5 py-5 position-relative">
     <img src="{{ PROJECT_DIRECTORY }}/public/images/cf2m-logo-good.png"
          alt="Logo CF2M"
          class="position-absolute"
@@ -25,7 +31,10 @@
         <input class="btn btn-warning w-25 align-self-center" type="submit" value="Envoyez">
     </form>
 </div>
-
+                </div>
+            </div>
+        </div>
+    </section>
 
 {% block javascript %}
 <script src="/public/scripts/contact-form.js"></script>
