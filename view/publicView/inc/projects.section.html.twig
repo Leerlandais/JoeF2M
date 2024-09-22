@@ -43,6 +43,44 @@
               </div>
             {% endfor %}
 
+            {# Display  projects for Ani #}
+            {% for project in aniDigProjects | slice(0, 9) %}
+              <div class="col-lg-4 col-md-6 DiapoCf2m-item filter-{{ project.getJoeProjClass }}">
+                <div class="DiapoCf2m-wrap">
+                  <img src="{{ PROJECT_DIRECTORY }}{{ project.getJoeProjImgLoc }}" class="img-fluid" data-aos="zoom-in"
+                       data-aos-duration="2500" alt="{{ project.getJoeProjAlt }}" />
+                  <div class="DiapoCf2m-links">
+                    <a href="{{ PROJECT_DIRECTORY }}{{ project.getJoeProjImgLoc }}" data-gallery="DiapoCf2mGallery"
+                       class="DiapoCf2m-lightbox" data-aos="zoom-in" data-aos-duration="2500" title="">
+                      <i class="bi bi-plus"></i>
+                    </a>
+                    <a href="{{ project.getJoeProjUrl }}" target="_blank" title="{{ project.getJoeProjAlt }}">
+                      <i class="bi bi-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+
+            {# Displat Web Design #}
+            {% for project in webDesProjects | slice(0, 9) %}
+              <div class="col-lg-4 col-md-6 DiapoCf2m-item filter-{{ project.getJoeProjClass }}">
+                <div class="DiapoCf2m-wrap">
+                  <img src="{{ PROJECT_DIRECTORY }}{{ project.getJoeProjImgLoc }}" class="img-fluid" data-aos="zoom-in"
+                       data-aos-duration="2500" alt="{{ project.getJoeProjAlt }}" />
+                  <div class="DiapoCf2m-links">
+                    <a href="{{ PROJECT_DIRECTORY }}{{ project.getJoeProjImgLoc }}" data-gallery="DiapoCf2mGallery"
+                       class="DiapoCf2m-lightbox" data-aos="zoom-in" data-aos-duration="2500" title="">
+                      <i class="bi bi-plus"></i>
+                    </a>
+                    <a href="{{ project.getJoeProjUrl }}" target="_blank" title="{{ project.getJoeProjAlt }}">
+                      <i class="bi bi-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+
 
 
         </div>
