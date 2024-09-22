@@ -32,7 +32,10 @@ $route = $_GET['route'] ?? 'home';
 switch ($route) {
     case 'home':
         $projects = $projectManager->getRandomProjects();
-        echo $twig->render('publicView/public.home.html.twig', ['projects' => $projects]);
+        $projTypeAni = $projectManager->getAllProjectsByClass("aniDig");
+        $projTypeDes = $projectManager->getAllProjectsByClass("webDes");
+        $projTypeDev = $projectManager->getAllProjectsByClass("webDev");
+        echo $twig->render('publicView/public.home.html.twig', ['projects' => $projects, 'aniDig' => $projTypeAni, 'webDes' => $projTypeDes, 'webDev' => $projTypeDev]);
         break;
 
     default:

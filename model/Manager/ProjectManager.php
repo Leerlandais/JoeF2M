@@ -22,22 +22,25 @@ class ProjectManager extends AbstractManager
         }
         return $projObject;
     }
+    
 
     public function getAllProjectsByClass($class) : array|bool
     {
-        $query = $this->db->query(
-                "SELECT * FROM joe_projects
-                        WHERE joe_proj_class = ?
-                        ORDER BY RAND()"
+        $stmt = $this->db->prepare(
+            "SELECT * FROM joe_projects
+                    WHERE joe_proj_class = ?
+                    ORDER BY RAND()"
         );
-        $projects = $query->fetchAll();
-        $query->closeCursor();
+        $stmt->execute([$class]);
+        if ($stmt->rowCount() === 0) return false;
+        $data = $stmt->fetchAll();
+        $stmt->closeCursor();
         $projObject = [];
-        foreach ($projects as $project) {
+        foreach ($data as $project) {
             $projObject[] = new ProjectMapping($project);
         }
         return $projObject;
-    }
 
+    }
 
 } // end class
