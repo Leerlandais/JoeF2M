@@ -1,9 +1,8 @@
-
 @font-face {
 
   font-family: 'jetbrains_monoregular';
   src: url('/public/fonts/jetbrainsmono-variablefont_wght-webfont.woff2') format('woff2'),
-       url('/public/fonts/jetbrainsmono-variablefont_wght-webfont.woff') format('woff');
+    url('/public/fonts/jetbrainsmono-variablefont_wght-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -30,7 +29,7 @@ a {
   text-decoration: none;
 }
 
-p{ 
+p {
   font-family: 'jetbrains_monoregular';
   color: black;
   font-size: 14px;
@@ -50,7 +49,7 @@ h6 {
   font-family: "jetbrains_monoregular";
 }
 
-.pre{
+.pre {
   background-image: url(../../public/images/);
   background-size: contain;
   background-position: relative;
@@ -81,7 +80,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #F29100 ;
+  background: #F29100;
   color: #fff;
 }
 
@@ -106,7 +105,7 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 16px 0;
-  background:white;
+  background: white;
 }
 
 #header .logo h1 {
@@ -128,7 +127,7 @@ h6 {
 
 #header .logo h1 a span,
 #header .logo h1 a:hover span {
-  color: #F29100 ;
+  color: #F29100;
 }
 
 #header .logo img {
@@ -170,7 +169,7 @@ h6 {
   color: black;
   white-space: nowrap;
   transition: 0.3s;
-  text-shadow: 1px 1px 1px rgba(76, 76, 76, 0.89); 
+  text-shadow: 1px 1px 1px rgba(76, 76, 76, 0.89);
 }
 
 .navbar a i,
@@ -188,7 +187,7 @@ h6 {
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #F29100 ;
+  background: #F29100;
   color: #fff;
   padding: 4px 25px 6px 25px;
   margin-left: 30px;
@@ -237,7 +236,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #F29100 ;
+  color: #F29100;
 }
 
 .navbar .dropdown:hover>ul {
@@ -273,7 +272,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #F29100 ;
+  color: #F29100;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -338,7 +337,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #F29100 ;
+  color: #F29100;
 }
 
 .navbar-mobile .getstarted,
@@ -375,7 +374,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #F29100 ;
+  color: #F29100;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -387,13 +386,13 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   border-radius: 2rem;
-  position : relative;
+  position: relative;
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
-              rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, 
-              rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
   padding: 0 0 0 0;
   background: #F29100;
-  background: linear-gradient(180deg,#F29100 0%, #F29100 35%,#f291007e 100%);
+  background: linear-gradient(180deg, #F29100 0%, #F29100 35%, #f291007e 100%);
 }
 
 #hero h1 {
@@ -419,7 +418,7 @@ h6 {
   border: 2px solid black;
   transition: all ease-in-out 0.3s;
   display: inline-block;
- 
+
 }
 
 #hero .btn-get-started:hover {
@@ -595,13 +594,13 @@ h6 {
 }
 
 .about .content .icon-box h4 a:hover {
-  color: #F29100 ;
+  color: #F29100;
 }
 
 .about .content .icon-box i {
   font-size: 48px;
   float: left;
-  color: #F29100 ;
+  color: #F29100;
 }
 
 .about .content .icon-box p {
@@ -691,7 +690,7 @@ h6 {
 }
 
 .services .read-more a:hover {
-  color: #F29100 ;
+  color: #F29100;
 }
 
 .services .card:hover img {
@@ -699,11 +698,11 @@ h6 {
 }
 
 .services .card:hover .card-body {
-  border-color: #F29100 ;
+  border-color: #F29100;
 }
 
 .services .card:hover .card-body .card-title a {
-  color: #F29100 ;
+  color: #F29100;
 }
 
 /*--------------------------------------------------------------
@@ -731,7 +730,7 @@ h6 {
 .features .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #F29100 ;
+  color: #F29100;
 }
 
 .features .content p:last-child {
@@ -768,7 +767,7 @@ h6 {
 
 .DiapoCf2m #DiapoCf2m-flters li:hover,
 .DiapoCf2m #DiapoCf2m-flters li.filter-active {
-  color: #F29100 ;
+  color: #F29100;
 }
 
 .DiapoCf2m #DiapoCf2m-flters li:last-child {
@@ -826,7 +825,7 @@ h6 {
 }
 
 .DiapoCf2m .DiapoCf2m-wrap .DiapoCf2m-links a:hover {
-  color: #F29100 ;
+  color: #F29100;
 }
 
 .DiapoCf2m .DiapoCf2m-wrap .DiapoCf2m-info {
@@ -887,11 +886,11 @@ h6 {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #F29100 ;
+  border: 1px solid #F29100;
 }
 
 .DiapoCf2m-details .DiapoCf2m-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #F29100 ;
+  background-color: #F29100;
 }
 
 .DiapoCf2m-details .DiapoCf2m-info {
@@ -972,7 +971,7 @@ h6 {
 }
 
 .team .member .social a:hover {
-  color: #F29100 ;
+  color: #F29100;
 }
 
 .team .member .social i {
@@ -1001,7 +1000,7 @@ h6 {
   position: absolute;
   top: -11px;
   left: calc(50% - 49px);
-  background: #F29100 ;
+  background: #F29100;
   color: #fff;
   text-align: center;
   line-height: 1;
@@ -1019,7 +1018,7 @@ h6 {
 
 .pricing h4 {
   font-size: 46px;
-  color: #F29100 ;
+  color: #F29100;
   font-weight: 400;
   font-family: "jetbrains_monoregular";
   margin-bottom: 25px;
@@ -1044,7 +1043,7 @@ h6 {
 }
 
 .pricing ul i {
-  color: #F29100 ;
+  color: #F29100;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1075,17 +1074,17 @@ h6 {
 }
 
 .pricing .get-started-btn:hover {
-  background: #F29100 ;
+  background: #F29100;
 }
 
 .pricing .featured {
   z-index: 10;
   margin: -30px -5px 0 -5px;
-  border: 1px solid #F29100 ;
+  border: 1px solid #F29100;
 }
 
 .pricing .featured .get-started-btn {
-  background: #F29100 ;
+  background: #F29100;
 }
 
 .pricing .featured .get-started-btn:hover {
@@ -1146,6 +1145,13 @@ h6 {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contactForm {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  background: linear-gradient(180deg, #8383837e 0%, #8383837e 35%, #383838 100%);
+}
+
 .contact .info-box {
   color: #444444;
   text-align: center;
@@ -1156,7 +1162,7 @@ h6 {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #F29100 ;
+  color: #F29100;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #fff7e5;
@@ -1232,7 +1238,7 @@ h6 {
 
 .contact .php-email-form input::focus,
 .contact .php-email-form textarea::focus {
-  background-color: #F29100 ;
+  background-color: #F29100;
 }
 
 .contact .php-email-form input {
@@ -1244,7 +1250,7 @@ h6 {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #F29100 ;
+  background: #F29100;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1270,7 +1276,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  background: linear-gradient(360deg,#1f2549 0%, #115363 35%,#115363 100%);
+  background: linear-gradient(360deg, #1f2549 0%, #115363 35%, #115363 100%);
   color: #fff;
   font-size: 14px;
   position: relative;
@@ -1305,14 +1311,14 @@ h6 {
 }
 
 .footer-top a {
- color: white;
- font-size: 12px;
+  color: white;
+  font-size: 12px;
 }
 
 .footer-top a:hover {
-  color: rgb(227,0,86);
+  color: rgb(227, 0, 86);
   font-size: 22px;
- }
+}
 
 #footer .footer-top p {
   font-size: 15;
@@ -1344,7 +1350,7 @@ h6 {
 
 .formInput {
   position: relative;
-  background: rgb(0,168,159);
+  background: rgb(0, 168, 159);
   border-radius: 50px;
   color: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1359,7 +1365,7 @@ h6 {
 }
 
 .formInput:hover {
-  background: rgb(227,0,86);
+  background: rgb(227, 0, 86);
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit] {
@@ -1371,7 +1377,7 @@ h6 {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: rgb(0,168,159);
+  background: rgb(0, 168, 159);
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1379,7 +1385,7 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: rgb(227,0,86);
+  background: rgb(227, 0, 86);
 }
 
 #footer .footer-top .social-links {
@@ -1389,7 +1395,7 @@ h6 {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: rgb(0,168,159);
+  background: rgb(0, 168, 159);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1402,7 +1408,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: rgb(227,0,86);
+  background: rgb(227, 0, 86);
   color: #fff;
   text-decoration: none;
 }
@@ -1436,14 +1442,14 @@ h6 {
   }
 }
 
-.img-responsive{
+.img-responsive {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-.liensFooter:hover{
-  color: rgb(227,0,86);
+.liensFooter:hover {
+  color: rgb(227, 0, 86);
   animation: 1s ease-in-out;
 }
 
@@ -1453,6 +1459,7 @@ h6 {
     opacity: 0;
     transform: translateX(-50px);
   }
+
   to {
     opacity: 1;
   }
