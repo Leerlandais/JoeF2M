@@ -939,9 +939,9 @@ h6 {
 }
 
 .team .member .pic {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   overflow: hidden;
-  min-height: 260px;
+  min-height: 200px;
 }
 
 .team .member .pic img {
@@ -962,7 +962,7 @@ h6 {
 }
 
 .team .member .social {
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .team .member .social a {
