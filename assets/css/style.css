@@ -1146,11 +1146,22 @@ h6 {
 # Contact
 --------------------------------------------------------------*/
 .contactForm {
+  -webkit-box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+  rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+  rgba(255, 255, 255, 0.08) 0px 1px 0px inset; /* Chrome, Safari, Edge (old) */
+  -moz-box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+  rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+  rgba(255, 255, 255, 0.08) 0px 1px 0px inset; /* Firefox */
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
-    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
-    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-  background: linear-gradient(180deg, #8383837e 0%, #8383837e 35%, #383838 100%);
+  rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+  rgba(255, 255, 255, 0.08) 0px 1px 0px inset; /* Standard */
+
+  background: -webkit-linear-gradient(180deg, #8383837e 0%, #8383837e 35%, #383838 100%); /* Chrome, Safari */
+  background: -moz-linear-gradient(180deg, #8383837e 0%, #8383837e 35%, #383838 100%); /* Firefox */
+  background: -o-linear-gradient(180deg, #8383837e 0%, #8383837e 35%, #383838 100%); /* Opera */
+  background: linear-gradient(180deg, #8383837e 0%, #8383837e 35%, #383838 100%); /* Standard */
 }
+
 
 .contact .info-box {
   color: #444444;

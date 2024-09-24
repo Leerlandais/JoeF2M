@@ -24,23 +24,42 @@ class ProjectManager extends AbstractManager
     }
 
 
-    public function getAllProjectsByClass($class) : array|bool
+    public function getAllProjectsByClass(int $limit = 9) : array|bool
     {
+        $perClassLimit = intval($limit / 3);
+
         $stmt = $this->db->prepare(
-            "SELECT * FROM joe_projects
-                    WHERE joe_proj_class = ?
-                    ORDER BY RAND()"
+            "(
+            SELECT * FROM joe_projects
+            WHERE joe_proj_class = 'aniDig'
+            ORDER BY RAND()
+            LIMIT $perClassLimit
+        ) UNION ALL (
+            SELECT * FROM joe_projects
+            WHERE joe_proj_class = 'webDes'
+            ORDER BY RAND()
+            LIMIT $perClassLimit
+        ) UNION ALL (
+            SELECT * FROM joe_projects
+            WHERE joe_proj_class = 'webDev'
+            ORDER BY RAND()
+            LIMIT $perClassLimit
+        )"
         );
-        $stmt->execute([$class]);
+
+        $stmt->execute();
         if ($stmt->rowCount() === 0) return false;
+
         $data = $stmt->fetchAll();
         $stmt->closeCursor();
+
         $projObject = [];
         foreach ($data as $project) {
             $projObject[] = new ProjectMapping($project);
         }
-        return $projObject;
 
+        return $projObject;
     }
+
 
 } // end class
