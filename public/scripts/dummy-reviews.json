@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "section": "cf2m",
+    "comment": "Le CF2M m'a donné une vraie chance de me réorienter dans une filière porteuse. L'équipe pédagogique est au top, à l'écoute et compétente.",
+    "name": "Pierre M."
+  },
+  {
+    "id": 2,
+    "section": "cf2m",
+    "comment": "Ambiance chaleureuse, des professeurs passionnés et un suivi personnalisé. Je recommande vivement le CF2M à tous ceux qui veulent progresser rapidement.",
+    "name": "Amandine S."
+  },
+  {
+    "id": 3,
+    "section": "cf2m",
+    "comment": "Une structure solide qui vous prépare réellement au marché du travail. J’ai trouvé un emploi à peine 2 mois après ma formation.",
+    "name": "Christophe D."
+  },
+  {
+    "id": 4,
+    "section": "cf2m",
+    "comment": "Le CF2M m'a permis de concrétiser mon projet professionnel. Le contenu est bien structuré et les outils à disposition sont de qualité.",
+    "name": "Isabelle J."
+  },
+  {
+    "id": 5,
+    "section": "cf2m",
+    "comment": "Des locaux modernes et des équipements à la pointe. C’est vraiment un centre de formation qui se soucie de la réussite de ses étudiants.",
+    "name": "Victor B."
+  },
+  {
+    "id": 6,
+    "section": "cf2m",
+    "comment": "Je ne savais rien de la programmation avant de venir au CF2M. Maintenant, je travaille dans une entreprise IT grâce à eux !",
+    "name": "Sara T."
+  },
+  {
+    "id": 7,
+    "section": "cf2m",
+    "comment": "Formation intense mais enrichissante, l'accompagnement est présent à chaque étape du parcours.",
+    "name": "Mehdi K."
+  },
+  {
+    "id": 8,
+    "section": "cf2m",
+    "comment": "Les modules sont bien pensés, avec des stages pratiques qui permettent de s’immerger directement dans le monde professionnel.",
+    "name": "Élodie G."
+  },
+  {
+    "id": 9,
+    "section": "cf2m",
+    "comment": "Les intervenants sont des professionnels en activité, ce qui garantit une formation en phase avec la réalité du marché.",
+    "name": "Quentin L."
+  },
+  {
+    "id": 10,
+    "section": "cf2m",
+    "comment": "C’est la diversité des cursus qui m’a séduit au CF2M. Tout le monde peut y trouver sa place, quel que soit son niveau initial.",
+    "name": "Fatima Z."
+  },
+  {
+    "id": 11,
+    "section": "webDev",
+    "comment": "Formation ultra complète en développement web. On apprend vraiment les bases solides, ainsi que les technologies les plus récentes.",
+    "name": "Julien P."
+  },
+  {
+    "id": 12,
+    "section": "webDev",
+    "comment": "Grâce à cette formation, j’ai découvert des frameworks modernes que je n'aurais jamais appris tout seul. Aujourd’hui, je suis full-stack développeur !",
+    "name": "Lucie F."
+  },
+  {
+    "id": 13,
+    "section": "webDev",
+    "comment": "La partie sur les bases de données m’a été particulièrement utile. Le contenu est à jour, et les exercices pratiques sont très concrets.",
+    "name": "Mohamed H."
+  },
+  {
+    "id": 14,
+    "section": "webDev",
+    "comment": "Une formation de qualité avec des professeurs à l'écoute. J'ai appris plus ici en quelques mois qu'en autodidacte en plusieurs années.",
+    "name": "Karim T."
+  },
+  {
+    "id": 15,
+    "section": "webDev",
+    "comment": "Ce que j’ai aimé, c’est l’approche pratique : on code tout de suite ! Pas de théorie pour rien, que du concret.",
+    "name": "Léa V."
+  },
+  {
+    "id": 16,
+    "section": "webDev",
+    "comment": "Formation complète sur le développement web, avec un bon équilibre entre frontend et backend. L’accompagnement post-formation est aussi très appréciable.",
+    "name": "Éric D."
+  },
+  {
+    "id": 17,
+    "section": "webDev",
+    "comment": "L'initiation à JavaScript et aux frameworks modernes m’a énormément aidé. Je recommande cette formation à tous ceux qui veulent se lancer dans le web.",
+    "name": "Sandra C."
+  },
+  {
+    "id": 18,
+    "section": "webDev",
+    "comment": "Les projets de groupe en fin de parcours sont une excellente manière de consolider les connaissances et de se préparer au travail en entreprise.",
+    "name": "Maxime G."
+  },
+  {
+    "id": 19,
+    "section": "webDev",
+    "comment": "J’ai particulièrement aimé le module sur les API et les bases de données. Une formation solide qui m’a permis de décrocher mon premier job en tant que développeur.",
+    "name": "Alice B."
+  },
+  {
+    "id": 20,
+    "section": "webDev",
+    "comment": "La formation m’a ouvert les yeux sur l’univers du web. Je n’étais pas sûr de mes choix, mais le CF2M m’a donné confiance en mes capacités.",
+    "name": "Antonin K."
+  },
+  {
+    "id": 21,
+    "section": "aniDig",
+    "comment": "Excellente formation pour ceux qui aiment la création visuelle et le digital. J’ai appris énormément sur les logiciels d’animation et la création de contenu multimédia.",
+    "name": "Marion D."
+  },
+  {
+    "id": 22,
+    "section": "aniDig",
+    "comment": "La formation en animation digitale m’a permis d’explorer ma créativité tout en acquérant des compétences techniques recherchées sur le marché.",
+    "name": "Thomas L."
+  },
+  {
+    "id": 23,
+    "section": "aniDig",
+    "comment": "Je recommande cette formation à tous ceux qui aiment allier technique et artistique. Les projets sont variés et les formateurs très impliqués.",
+    "name": "Sophie M."
+  },
+  {
+    "id": 24,
+    "section": "aniDig",
+    "comment": "Une formation intense mais gratifiante, qui m’a permis de m’améliorer dans l’animation 2D et 3D. Le CF2M m’a vraiment préparé à entrer dans le monde professionnel.",
+    "name": "Samuel P."
+  },
+  {
+    "id": 25,
+    "section": "aniDig",
+    "comment": "J’ai découvert des outils comme After Effects et Blender. C’était génial de pouvoir créer des animations complètes à partir de zéro !",
+    "name": "Jessica R."
+  },
+  {
+    "id": 26,
+    "section": "aniDig",
+    "comment": "Très bonne formation pour ceux qui veulent se lancer dans l’animation digitale. L’équipe est très compétente et à l’écoute.",
+    "name": "Victor H."
+  },
+  {
+    "id": 27,
+    "section": "aniDig",
+    "comment": "Le contenu est très bien structuré, avec une progression pédagogique qui permet de maîtriser toutes les étapes d'un projet d'animation.",
+    "name": "Julie L."
+  },
+  {
+    "id": 28,
+    "section": "aniDig",
+    "comment": "Les projets créatifs que nous avons réalisés étaient très intéressants, et j’ai pu développer un portfolio professionnel pendant la formation.",
+    "name": "Nicolas E."
+  },
+  {
+    "id": 29,
+    "section": "webDes",
+    "comment": "Une formation qui mêle parfaitement créativité et technique. J’ai adoré travailler sur les maquettes et les aspects UX/UI.",
+    "name": "Chloé P."
+  },
+  {
+    "id": 30,
+    "section": "webDes",
+    "comment": "J’ai beaucoup apprécié le module sur le design responsive. C’est indispensable aujourd’hui de savoir créer des interfaces adaptées à tous les supports.",
+    "name": "Anissa G."
+  }
+]
