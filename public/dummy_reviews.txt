@@ -1,0 +1,90 @@
+"Je suis devenue web dev grâce au CF2M et aux équipes qui ont su me transmettre la passion du métier en plus des compétences techniques", Alice B.
+
+"Excellente formation pour ceux qui cherchent à se remettre à niveau et
+acquérir les bonnes pratiques en informatique de base. Je conseille vivement! 
+En plus les certifications sont qualifiantes au niveau européen..", Mustapha L.
+
+"Une super année de formation, complète, où j'ai appris et pris du plaisir à mettre mes nouvelles compétences en pratique. 
+Merci la team du CF !", Stéphane R.
+
+Voici 30 avis supplémentaires répartis entre des évaluations du CF2M et de ses différentes formations (Développement Web, Animation Digitale, Design Web). Tous les avis sont en français.
+
+---
+
+### Avis sur le CF2M
+
+1. **"Le CF2M m'a donné une vraie chance de me réorienter dans une filière porteuse. L'équipe pédagogique est au top, à l'écoute et compétente."** – Pierre M.
+
+2. **"Ambiance chaleureuse, des professeurs passionnés et un suivi personnalisé. Je recommande vivement le CF2M à tous ceux qui veulent progresser rapidement."** – Amandine S.
+
+3. **"Une structure solide qui vous prépare réellement au marché du travail. J’ai trouvé un emploi à peine 2 mois après ma formation."** – Christophe D.
+
+4. **"Le CF2M m'a permis de concrétiser mon projet professionnel. Le contenu est bien structuré et les outils à disposition sont de qualité."** – Isabelle J.
+
+5. **"Des locaux modernes et des équipements à la pointe. C’est vraiment un centre de formation qui se soucie de la réussite de ses étudiants."** – Victor B.
+
+6. **"Je ne savais rien de la programmation avant de venir au CF2M. Maintenant, je travaille dans une entreprise IT grâce à eux !"** – Sara T.
+
+7. **"Formation intense mais enrichissante, l'accompagnement est présent à chaque étape du parcours."** – Mehdi K.
+
+8. **"Les modules sont bien pensés, avec des stages pratiques qui permettent de s’immerger directement dans le monde professionnel."** – Élodie G.
+
+9. **"Les intervenants sont des professionnels en activité, ce qui garantit une formation en phase avec la réalité du marché."** – Quentin L.
+
+10. **"C’est la diversité des cursus qui m’a séduit au CF2M. Tout le monde peut y trouver sa place, quel que soit son niveau initial."** – Fatima Z.
+
+---
+
+### Avis sur le **Développement Web** (Web Development)
+
+11. **"Formation ultra complète en développement web. On apprend vraiment les bases solides, ainsi que les technologies les plus récentes."** – Julien P.
+
+12. **"Grâce à cette formation, j’ai découvert des frameworks modernes que je n'aurais jamais appris tout seul. Aujourd’hui, je suis full-stack développeur !"** – Lucie F.
+
+13. **"La partie sur les bases de données m’a été particulièrement utile. Le contenu est à jour, et les exercices pratiques sont très concrets."** – Mohamed H.
+
+14. **"Une formation de qualité avec des professeurs à l'écoute. J'ai appris plus ici en quelques mois qu'en autodidacte en plusieurs années."** – Karim T.
+
+15. **"Ce que j’ai aimé, c’est l’approche pratique : on code tout de suite ! Pas de théorie pour rien, que du concret."** – Léa V.
+
+16. **"Formation complète sur le développement web, avec un bon équilibre entre frontend et backend. L’accompagnement post-formation est aussi très appréciable."** – Éric D.
+
+17. **"L'initiation à JavaScript et aux frameworks modernes m’a énormément aidé. Je recommande cette formation à tous ceux qui veulent se lancer dans le web."** – Sandra C.
+
+18. **"Les projets de groupe en fin de parcours sont une excellente manière de consolider les connaissances et de se préparer au travail en entreprise."** – Maxime G.
+
+19. **"J’ai particulièrement aimé le module sur les API et les bases de données. Une formation solide qui m’a permis de décrocher mon premier job en tant que développeur."** – Alice B.
+
+20. **"La formation m’a ouvert les yeux sur l’univers du web. Je n’étais pas sûr de mes choix, mais le CF2M m’a donné confiance en mes capacités."** – Antonin K.
+
+---
+
+### Avis sur l'**Animation Digitale** (Digital Animation)
+
+21. **"Excellente formation pour ceux qui aiment la création visuelle et le digital. J’ai appris énormément sur les logiciels d’animation et la création de contenu multimédia."** – Marion D.
+
+22. **"La formation en animation digitale m’a permis d’explorer ma créativité tout en acquérant des compétences techniques recherchées sur le marché."** – Thomas L.
+
+23. **"Je recommande cette formation à tous ceux qui aiment allier technique et artistique. Les projets sont variés et les formateurs très impliqués."** – Sophie M.
+
+24. **"Une formation intense mais gratifiante, qui m’a permis de m’améliorer dans l’animation 2D et 3D. Le CF2M m’a vraiment préparé à entrer dans le monde professionnel."** – Samuel P.
+
+25. **"J’ai découvert des outils comme After Effects et Blender. C’était génial de pouvoir créer des animations complètes à partir de zéro !"** – Jessica R.
+
+26. **"Très bonne formation pour ceux qui veulent se lancer dans l’animation digitale. L’équipe est très compétente et à l’écoute."** – Victor H.
+
+27. **"Le contenu est très bien structuré, avec une progression pédagogique qui permet de maîtriser toutes les étapes d'un projet d'animation."** – Julie L.
+
+28. **"Les projets créatifs que nous avons réalisés étaient très intéressants, et j’ai pu développer un portfolio professionnel pendant la formation."** – Nicolas E.
+
+---
+
+### Avis sur le **Design Web** (Web Design)
+
+29. **"Une formation qui mêle parfaitement créativité et technique. J’ai adoré travailler sur les maquettes et les aspects UX/UI."** – Chloé P.
+
+30. **"J’ai beaucoup apprécié le module sur le design responsive. C’est indispensable aujourd’hui de savoir créer des interfaces adaptées à tous les supports."** – Anissa G.
+
+---
+
+Ces 30 avis vous offrent une variété d'opinions sur les différentes formations proposées par le CF2M et ses cursus spécifiques en développement web, animation digitale, et design web. Ils pourront facilement être intégrés à votre API locale pour donner plus de contenu à votre projet.
