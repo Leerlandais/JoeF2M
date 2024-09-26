@@ -15,20 +15,21 @@ function getReviews() {
 function postReviews(datas) {
  //   console.log('Here is the data:', datas);  // this works
     const container = document.getElementById('review-container');
-
+    let i = 0;
     datas.forEach(function(data) {
         const reviewList = document.createElement("ul");
         reviewList.classList.add(data.section);
-
         let LI = document.createElement("li");
+        if(i < 9) {
+        i++;
+
         LI.innerHTML = `<span id="${data.id}">
                             <span>${data.name}</span>
                             <span><img src="${data.img}" alt="avatar image ${data.name}" title="${data.license}"></span>
                             <span>${data.comment}</span>
                         </span>`;
-
         reviewList.appendChild(LI);
-
+        }
         container.appendChild(reviewList);
     });
 }
