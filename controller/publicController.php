@@ -35,7 +35,9 @@ switch ($route) {
 
         echo $twig->render('publicView/public.home.html.twig', ['projects' => $projects]);
         break;
-
+    case 'form':
+        echo $twig->render('publicView/public.formations.html.twig');
+        break;
     default:
         echo $twig->render('404.html.twig');
         break;
